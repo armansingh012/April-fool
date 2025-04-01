@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F2CEE6;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vh;
+
+}
+
+.btn button {
+    padding: 15px 40px;
+    background-color: #7798AB;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.april-fool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    
+    position: absolute;
+    bottom: 50vh;
+    left: 50vw;
+    transform: translate(-50% ,-50%); */
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img img{
+    width: 70vw;
+    height: 80vh;
+}
